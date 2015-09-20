@@ -1,0 +1,33 @@
+{
+  "name": "logger-winston",
+  "description": "Provides a logging helper to work with multiple winston logger instances using different configuration settings for each logger",
+  "version": "0.0.0",
+  "author": {
+    "name": "Marcus Wittig",
+    "url": "https://github.com/mwittig/logger-winston"
+  },
+  "license": "MIT",
+  "main": "./logger-winston",
+  "keywords": [
+    "logging",
+    "sysadmin",
+    "tools",
+    "winston"
+  ],
+  "dependencies": {
+    "winston": "^1.0.1",
+    "winston-dconsole": "0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mwittig/logger-winston.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mwittig/logger-winston/issues"
+  },
+  "files": [
+    "README.md",
+    "logger-winston.js",
+    "LICENSE"
+  ]
+}
