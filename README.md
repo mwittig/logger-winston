@@ -45,8 +45,8 @@ Get a winston logger for a given topic name. If the requested logger does not ye
 created internally.
 
 **Kind**: global function
+
 **Returns**: <code>Object</code> - The winston logger for the given topic name
-**See**: https://github.com/flatiron/winston#working-with-multiple-loggers-in-winston
 
 | Param | Type | Description |
 | --- | --- | --- |
