@@ -24,6 +24,7 @@ other topics using logging get loaded.</p>
 created internally.</p>
 </dd>
 </dl>
+
 <a name="init"></a>
 ### init(config)
 Initialize logging with the given configuration. As the given configuration will be cached internally the first
@@ -59,7 +60,7 @@ created internally.
 // obtain a logger using getLogger().
 var config = require("./config.json");
 var logging = require("logger-winston");
-logging.init(serverConfig);
+logging.init(config);
 
 // Now you can obtain a logger for the topic "MyApp", for example, and start logging.
 // The log output will be augmented with a label for the given topic name, automatically.
