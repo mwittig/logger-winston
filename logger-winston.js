@@ -3,7 +3,6 @@
 var winston = require('winston'),
     _ = require('lodash'),
     Dconsole = require('winston-dconsole'),
-    lumberjack = require('winston-lumberjack'),
     localConfig = {};
 
 

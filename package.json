@@ -15,7 +15,7 @@
     "winston"
   ],
   "dependencies": {
-    "winston": "^1.0.1",
+    "winston": "^1.1.2",
     "winston-dconsole": "0.0.1"
   },
   "repository": {

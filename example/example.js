@@ -2,7 +2,7 @@
 // You only need to call this once! Modules loaded subsequently, can simply
 // obtain a logger using getLogger().
 var config = require("./config.json");
-var logging = require("logger-winston");
+var logging = require("../logger-winston");
 logging.init(config);
 
 // Now you can obtain a logger for the topic "MyApp", for example, and start logging.

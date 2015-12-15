@@ -3,7 +3,7 @@
     "default": {
       "console": {
         "level": "debug",
-        "colorize": true,
+        "colorize": "all",
         "timestamp": true
       }
     },
