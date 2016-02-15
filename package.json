@@ -16,7 +16,7 @@
   ],
   "dependencies": {
     "winston": "^2.1.1",
-    "winston-dconsole": "0.0.4"
+    "winston-dconsole": "0.0.5"
   },
   "repository": {
     "type": "git",
