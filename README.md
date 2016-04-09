@@ -98,3 +98,9 @@ logger2.info("Starting Server");
   }
 }
 ```
+
+## License
+
+Copyright (c) 2015-2016, Marcus Wittig and contributors. All rights reserved.
+
+[MIT License](https://github.com/mwittig/logger-winston/blob/master/LICENSE)
