@@ -15,7 +15,8 @@
     "winston"
   ],
   "dependencies": {
-    "winston": "^2.2.0",
+    "lodash.merge": "^4.6.0",
+    "winston": "^2.3.0",
     "winston-dconsole": "0.0.6"
   },
   "repository": {

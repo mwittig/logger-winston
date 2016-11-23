@@ -1,7 +1,7 @@
 'use strict';
 
 var winston = require('winston'),
-    _ = require('lodash'),
+    _merge = require('lodash.merge'),
     Dconsole = require('winston-dconsole'),
     localConfig = {};
 
@@ -34,7 +34,7 @@ function init(config) {
         if (config.hasOwnProperty("logging") && (config.logging.constructor === {}.constructor)) {
             // config has "logging" key with an {} object value
             //console.log("LOGGER: Setting config");
-            localConfig = _.merge({}, config.logging);
+            localConfig = _merge({}, config.logging);
         }
         else {
             // no valid config - use default
@@ -102,7 +102,7 @@ function getLogger(topicName) {
 
     if (localConfig.hasOwnProperty("default")) {
         //console.log("LOGGER: Setting config for topic "+topicName+" using defaults");
-        defaultConfig = _.merge({}, localConfig["default"]);
+        defaultConfig = _merge({}, localConfig["default"]);
     }
 
     var topicConfig = {};
@@ -116,7 +116,7 @@ function getLogger(topicName) {
     for (var key in topicConfig) {
         if (topicConfig.hasOwnProperty(key)) {
             if (key === "inheritDefault") {
-                topicConfig = _.merge({}, defaultConfig, topicConfig);
+                topicConfig = _merge({}, defaultConfig, topicConfig);
                 // according to ECMAScript 5.1 standard section 12.6.4 (on for-in loops) it is safe to delete the key
                 delete topicConfig[key];
             }
