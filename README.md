@@ -1,5 +1,7 @@
 # logger-winston
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mwittig/logger-winston.svg)](https://greenkeeper.io/)
+
 Provides a logging helper to work with multiple winston logger instances using different configuration settings for
  each logger. This is useful in larger applications where you may want group logging output into topics or categories
  for different parts of the code.
