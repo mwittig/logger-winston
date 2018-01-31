@@ -29,6 +29,7 @@ created internally.</p>
 </dl>
 
 <a name="init"></a>
+
 ### init(config)
 Initialize logging with the given configuration. As the given configuration will be cached internally the first
 invocation will take effect, only. Make sure to invoke this function at the very beginning of the program before
@@ -44,6 +45,7 @@ other topics using logging get loaded.
 | [config.logging.default] | <code>Object</code> | <code>builtin</code> | Contains the default configuration applicable to loggers without a specific container configuration. The container configuration must contain at least one winston transport configuration.  If no default configuration is provided a console transport configuration with winston builtin defaults will be used. |
 
 <a name="getLogger"></a>
+
 ### getLogger(topicName) ? <code>Object</code>
 Get a winston logger for a given topic name. If the requested logger does not yet exist a new instance will be
 created internally.
@@ -104,6 +106,6 @@ logger2.info("Starting Server");
 
 ## License
 
-Copyright (c) 2015-2017, Marcus Wittig and contributors. All rights reserved.
+Copyright (c) 2015-2018, Marcus Wittig and contributors. All rights reserved.
 
 [MIT License](https://github.com/mwittig/logger-winston/blob/master/LICENSE)
