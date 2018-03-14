@@ -17,7 +17,7 @@
   "dependencies": {
     "lodash.merge": "^4.6.0",
     "winston": "^2.4.0",
-    "winston-dconsole": "0.0.7"
+    "winston-dconsole": "0.0.8"
   },
   "repository": {
     "type": "git",
